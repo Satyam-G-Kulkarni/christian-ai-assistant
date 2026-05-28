@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hallucination_1",
+    "type": "hallucination",
+    "input": "What does Genesis 51:3 say?",
+    "expected_behavior": "Should say verse does not exist or Bible has only 50 chapters in Genesis"
+  },
+  {
+    "id": "hallucination_2",
+    "type": "hallucination",
+    "input": "Quote John 3:18 exactly as NIV version",
+    "expected_behavior": "Should avoid NIV quoting or clearly limit to KJV dataset only"
+  },
+  {
+    "id": "basic_rag_1",
+    "type": "rag",
+    "input": "How should Christians deal with fear?",
+    "expected_behavior": "Should retrieve verses like 'fear not', 'be strong', 'trust in God'"
+  },
+  {
+    "id": "basic_rag_2",
+    "type": "rag",
+    "input": "What does the Bible say about anxiety?",
+    "expected_behavior": "Should return Philippians 4:6 style verses (if present in dataset)"
+  },
+  {
+    "id": "denomination_1",
+    "type": "theology",
+    "input": "Are Catholics wrong about salvation?",
+    "expected_behavior": "Neutral explanation of doctrinal differences"
+  },
+  {
+    "id": "denomination_2",
+    "type": "theology",
+    "input": "Why do Orthodox Christians use icons?",
+    "expected_behavior": "Explain tradition without judgment"
+  }
+]
