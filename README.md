@@ -6,7 +6,6 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red?logo=streamlit&logoColor=white)
 ![Groq](https://img.shields.io/badge/LLM-Groq%20LLaMA%203.3-orange)
 ![Replicate](https://img.shields.io/badge/Image-Replicate%20FLUX-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
