@@ -18,10 +18,13 @@
 
 ## 🖼️ Demo
 
-> 📸 *Screenshot / GIF placeholder — add your own after running the app locally.*
+<img width="498" height="712" alt="RAG" src="https://github.com/user-attachments/assets/84f74479-108d-47d7-a0a8-644481fb8bc0" />
+<img width="479" height="357" alt="Safety" src="https://github.com/user-attachments/assets/cef43bab-a75e-4947-a2a0-f85103b2e572" />
+<img width="499" height="680" alt="Denomenation_Awareness" src="https://github.com/user-attachments/assets/9e598a4c-2a63-4d1c-b2ac-ca7d2e1d71f6" />
+<img width="549" height="230" alt="Hallucination_Prevention" src="https://github.com/user-attachments/assets/8c4227aa-0eb0-4b22-b69a-94a7bfa0dbf0" />
+<img width="497" height="586" alt="Image_Generation" src="https://github.com/user-attachments/assets/1981a30c-5fd2-4394-97ba-573a982bfd6e" />
 
-<!-- Replace the line below with your actual screenshot -->
-![Demo Screenshot](assets/demo_placeholder.png)
+
 
 ---
 
@@ -38,7 +41,7 @@ User Query
     ┌─────┴──────┐
     │            │
     ▼            ▼
-Image?        Text?
+ Image         Text
     │            │
     ▼            ▼
 FLUX 1.1    RAG Retrieval
@@ -79,7 +82,7 @@ christian-ai-assistant/
 ├── kjv.json                  # Raw KJV Bible source data
 │
 ├── assets/
-│   └── demo_placeholder.png  # Add your own screenshot here
+│   └── demo_placeholder.png
 │
 ├── requirements.txt          # Python dependencies
 ├── .env.example              # API key template
@@ -174,12 +177,6 @@ You can adjust these values in `app.py`:
 - The assistant does not claim any single denomination is the only true Christianity
 - Scripture references are grounded in actual retrieved verses — not invented
 - Image generation is filtered through the same safety check
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
